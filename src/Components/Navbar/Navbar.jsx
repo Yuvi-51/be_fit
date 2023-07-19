@@ -5,10 +5,10 @@ import { NavLink, useNavigate } from "react-router-dom";
 import { FaOpencart } from "react-icons/fa";
 import { AiOutlineUser } from "react-icons/ai";
 import Cart from "../../pages/Cart/Cart";
-import axios from "../../Axios";
 import { useAuth0 } from "@auth0/auth0-react";
 import Loader from "../LOADER/Loader";
 import User from "../User/User";
+import axios from "../../Axios";
 
 const Navbar = ({ cartState }) => {
   const navigate = useNavigate();
